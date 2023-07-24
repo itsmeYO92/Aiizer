@@ -1,0 +1,50 @@
+footer {
+    background: black;
+    margin-top: auto;
+    height: 70px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+}
+
+footer .music-info {
+    width: 20%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer .music-info img {
+    height: 60px;
+}
+
+footer .music-info h1 {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 5px;
+
+}
+
+footer .music-info h2 {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  font-size: 16px; /* Set a font size */
+  width:30px;  
+  height:30px;  
+  margin-left: 20px;
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
