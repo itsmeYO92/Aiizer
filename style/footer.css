@@ -34,17 +34,28 @@ footer .music-info h2 {
     margin-left: 5px;
 }
 
-.btn {
-  background-color: DodgerBlue; /* Blue background */
-  border: none; /* Remove borders */
-  color: white; /* White text */
-  font-size: 16px; /* Set a font size */
-  width:30px;  
-  height:30px;  
-  margin-left: 20px;
-  cursor: pointer; /* Mouse pointer on hover */
+footer .buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
 }
 
-.btn:hover {
-  background-color: RoyalBlue;
+footer .buttons .btn {
+  color: white; /* White text */
+  font-size: 25px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  background: transparent;
+  border: none;
 }
+
+footer .buttons .btn:hover {
+  color: #e84f17;
+}
+
+footer .navbar {
+    height: 1px;
+    width: 40%;
+    color: white;
+    margin-left: 10px;
+}
+
